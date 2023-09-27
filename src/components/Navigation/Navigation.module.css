@@ -1,0 +1,16 @@
+.Navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #adb5bd;
+  transition: 150ms;
+}
+
+.Navigation:hover {
+  transition: 150ms;
+  color: #212529;
+}
+
+.Navigation.Active {
+  color: #212529;
+}

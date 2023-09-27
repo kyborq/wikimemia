@@ -1,0 +1,17 @@
+.IconButton {
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: #adb5bd;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  transition: 150ms;
+}
+
+.IconButton:hover {
+  transition: 150ms;
+  color: #212529;
+}

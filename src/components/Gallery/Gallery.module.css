@@ -1,0 +1,32 @@
+.Gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.ViewPhoto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Modal {
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.Side {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* height: 512px; */
+  padding: 20px;
+}

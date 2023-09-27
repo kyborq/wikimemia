@@ -1,0 +1,25 @@
+.Category {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 22px;
+  transition: 250ms;
+  cursor: pointer;
+  color: #adb5bd;
+}
+
+.Category:hover {
+  background-color: #f1f3f5;
+  transition: 150ms;
+}
+
+.Category.Active {
+  background-color: #f1f3f5;
+  color: #212529;
+}
+
+.Label {
+  font-size: 13px;
+  font-weight: bold;
+}

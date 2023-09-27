@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Categories {
+  display: flex;
+  gap: 4px;
+}

@@ -1,0 +1,39 @@
+.Header {
+  display: flex;
+  gap: 8px;
+  padding: 48px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.Title {
+  margin: 0;
+  font-family: "Pacifico", cursive;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+.Description {
+  font-size: 14px;
+  color: #adb5bd;
+}
+
+.NavLeft {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+}
+
+.NavRight {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  justify-content: end;
+}

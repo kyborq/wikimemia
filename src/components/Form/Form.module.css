@@ -1,0 +1,38 @@
+.Form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  gap: 20px;
+  flex: 1;
+}
+
+.Title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.Button {
+  border: none;
+  border-radius: 25px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #9d4edd;
+  padding: 15px;
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.Button:active {
+  transform: scale(0.98);
+  transition: 150ms;
+}
